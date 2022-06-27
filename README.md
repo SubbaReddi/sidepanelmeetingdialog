@@ -20,6 +20,7 @@ This sample illustrates how to implement [Side Panel](https://docs.microsoft.com
 - **Add New Agenda Item** - Gives provision to add new Agenda point.
 - **Add** - Adds the agenda from Textinput to the SidePanel agenda list.
 - **Publish Agenda** - Sends the agenda list to the meeting chat.
+- **Meeting dialog / Content bubble** - Send meeting dialog on page load
 
 ## Prerequisites
 
