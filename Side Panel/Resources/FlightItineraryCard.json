@@ -1,0 +1,179 @@
+{
+  "body": [
+    {
+      "id": "rewardCardTopBanner",
+      "type": "Container",
+      "bleed": true,
+      "items": [
+        {
+          "text": " ",
+          "type": "TextBlock",
+          "wrap": true
+        }
+      ],
+      "style": "default",
+      "height": "stretch",
+      "minHeight": "110px",
+      "backgroundImage": "https://staticqa.rybbon.net/customer/campaign/email/rewardCardTopBanner-c535eb04f967d187971d1986929f24dd.png?rand=1655210119515"
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "items": [
+                {
+                  "id": "senderImage",
+                  "url": "https://staticqa.rybbon.net/customer/campaign/email/rewardCardAvatar-c535eb04f967d187971d1986929f24dd.png?rand=1655210119515",
+                  "size": "Small",
+                  "type": "Image",
+                  "$when": "true",
+                  "style": "Person",
+                  "horizontalAlignment": "Center"
+                },
+                {
+                  "type": "ColumnSet",
+                  "columns": [
+                    {
+                      "type": "Column",
+                      "width": "stretch",
+                      "items": [
+                        {
+                          "id": "senderActionString",
+                          "size": "Default",
+                          "text": "<at>Subba Reddi Tummuru</at> sent **$10** reward each to 20 people",
+                          "type": "TextBlock",
+                          "wrap": true,
+                          "height": "stretch",
+                          "weight": "Default",
+                          "horizontalAlignment": "Center"
+                        }
+                      ],
+                      "horizontalAlignment": "Center",
+                      "verticalContentAlignment": "Center"
+                    }
+                  ],
+                  "horizontalAlignment": "Center"
+                }
+              ],
+              "style": "emphasis",
+              "width": "stretch",
+              "horizontalAlignment": "Center"
+            }
+          ]
+        }
+      ],
+      "style": "default",
+      "horizontalAlignment": "Center",
+      "verticalContentAlignment": "Center"
+    },
+    {
+      "url": "https://staticqa.rybbon.net/customer/campaign/email/reward-c535eb04f967d187971d1986929f24dd.png?rand=1655210119515",
+      "size": "Large",
+      "type": "Image",
+      "$when": "true",
+      "height": "60px",
+      "horizontalAlignment": "Center"
+    },
+    {
+      "size": "Large",
+      "text": "Congratulations!!",
+      "type": "TextBlock",
+      "color": "Default",
+      "weight": "Default",
+      "horizontalAlignment": "Center"
+    },
+    {
+      "id": "thank_you_note",
+      "size": "Default",
+      "text": "Today we celebrate the day you joined us and ever since you have contributed heavily towards the company’s success.",
+      "type": "TextBlock",
+      "wrap": true,
+      "weight": "Default",
+      "fontType": "Default",
+      "isSubtle": true,
+      "horizontalAlignment": "Center"
+    },
+    {
+      "type": "Container",
+      "verticalContentAlignment": "Center",
+      "horizontalAlignment": "Center",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "Image",
+                  "style": "Person",
+                  "horizontalAlignment": "Center",
+                  "url": "https://adaptivecard.s3.us-west-2.amazonaws.com/assets/morty.png",
+                  "size": "medium"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "<at>Subba Reddi Tummuru</at>",
+                  "wrap": true,
+                  "horizontalAlignment": "Center"
+                }
+              ],
+              "style": "emphasis",
+              "spacing": "Small",
+              "horizontalAlignment": "Center"
+            }
+          ]
+        },
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "Image",
+                  "style": "Person",
+                  "horizontalAlignment": "Center",
+                  "url": "https://adaptivecard.s3.us-west-2.amazonaws.com/assets/morty.png",
+                  "size": "medium"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "<at>Subba Reddi Tummuru</at>",
+                  "wrap": true,
+                  "horizontalAlignment": "Center"
+                }
+              ],
+              "style": "emphasis",
+              "spacing": "Small",
+              "horizontalAlignment": "Center"
+            }
+          ]
+        }
+      ],
+      "style": "default"
+    }
+  ],
+  "type": "AdaptiveCard",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "msteams": {
+    "entities": [
+      {
+        "type": "mention",
+        "text": "<at>Subba Reddi Tummuru</at>",
+        "mentioned": {
+          "id": "admin@msteamssubba.onmicrosoft.com",
+          "name": "Subba Reddi Tummuru"
+        }
+      }
+    ]
+  },
+  "version": "1.3",
+  "verticalContentAlignment": "Center"
+}
